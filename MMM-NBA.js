@@ -78,7 +78,7 @@
 
               table.appendChild(this.createLabelRow());
 
-              const max = Math.min(this.config.games, nbascores.length);
+              const max = Math.min(this.rotateIndex + this.config.games, nbascores.length);
               for (let i = this.rotateIndex; i < max; i += 1) {
                   this.appendDataRow(this.nba[i], table);
               }
@@ -225,7 +225,7 @@
                   if (this.rotateIndex + this.config.games >= this.nba.length) {
                       this.rotateIndex = 0;
                   } else {
-                      this.rotateIndex = this.rotateIndex + this.config.matches;
+                      this.rotateIndex = this.rotateIndex + this.config.games;
                   }
                   this.updateDom(300);
               }, this.config.rotateInterval);
