@@ -1,0 +1,23 @@
+{
+  "name": "mmm-nba",
+  "version": "1.0.0",
+  "description": "NBA Score module for MM2",
+  "main": "MMM-NBA.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgibz/MMM-NBA.git"
+  },
+  "author": "bgibz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bgibz/MMM-NBA/issues"
+  },
+  "homepage": "https://github.com/bgibz/MMM-NBA#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.5"
+  },
+  "devDependencies": {}
+}
