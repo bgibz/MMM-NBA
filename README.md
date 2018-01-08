@@ -11,15 +11,16 @@ I like the look of fewieden's NHL and NFL score moduels, so modified cowboysdude
 
 git clone https://github.com/bgibz/MMM-NBA
 
-THEN in your config.js.....
+Edit your config.js:
 
-    Config Options:
+Config Options:
     header: header describing module purpose and current date
     logo: NBA logo in header, requires header set to true
-	colored: true = full colour logos, false = grayscale
-	games: number of games to list at once
-	updateInterval: 60000 how often in milliseconds to refresh data
-                     SEE EXAMPLE BELOW.
+    colored: true = full colour logos, false = grayscale
+    games: number of games to list at once
+    updateInterval: 60000 how often in milliseconds to refresh data
+                   
+		   Example:
 
  ____________________________________CONFIG.JS_____________________________________
           
@@ -38,3 +39,4 @@ THEN in your config.js.....
 
 ________________________________________________________________________________________
 
+finally, run npm install from the MMM-NBA directory.
