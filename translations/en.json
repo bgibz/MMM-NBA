@@ -1,0 +1,14 @@
+{
+  "LOADING": "Loading...",
+  "HOME": "Home",
+  "AWAY": "Away",
+  "PRE_GAME": "Warm Up",
+  "1": "1st QTR",
+  "2": "2nd QTR",
+  "3": "3rd QTR",
+  "4": "4th QTR",
+  "OVER_TIME": "OT",
+  "FINAL": "Final",
+  "FINAL_OVERTIME": "Final OT",
+  "UNKNOWN": "Unknown"
+}
