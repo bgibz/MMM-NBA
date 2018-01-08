@@ -3,6 +3,10 @@
 
 NBA Score modules for MM2
 
+I like the look of fewieden's NHL and NFL score moduels, so modified cowboysdude's NBA module to match.
+
+![alt text](MMM-NBA.png "MMM-NBA screenshot")
+
 ~MagicMirror/modules
 
 git clone https://github.com/bgibz/MMM-NBA
